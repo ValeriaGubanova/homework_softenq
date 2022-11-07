@@ -1,0 +1,19 @@
+.container_sub {
+    display: flex;
+    justify-content: center;
+    margin: 10% 15%;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.photo {
+    display: flex;
+    max-width: 65%;
+    max-height: 60%;
+    margin-right: 3%;
+}
+.photo img {
+    width: 100%;
+}
