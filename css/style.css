@@ -1,19 +1,61 @@
+body {
+margin:0;
+}
+.container_main {
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
 .container_sub {
     display: flex;
     justify-content: center;
-    margin: 10% 15%;
+    margin: auto 12%;
 }
 .portfolio {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 .photo {
     display: flex;
-    max-width: 65%;
-    max-height: 60%;
-    margin-right: 3%;
+    max-width: 80vh;
+     min-width: 80vh;
+    max-height: 70vh;
+    border-radius: 5%;
+    overflow: hidden;
 }
 .photo img {
     width: 100%;
+}
+
+.block_size {
+    display: flex;
+    justify-content: center;
+    width: 140%;
+    height: 100%;
+    background: red;
+    margin-bottom: 9%;
+
+}
+.text_portfolio {
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+}
+.name {
+
+}
+
+.dataBirth {
+
+}
+
+.university {
+
+}
+
+.group {
+
 }
