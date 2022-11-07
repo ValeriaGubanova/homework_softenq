@@ -6,6 +6,7 @@ margin:0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
+   background: radial-gradient(circle, rgba(255,180,199,1) 0%, rgba(140,184,255,1) 100%);
 }
 .container_sub {
     display: flex;
@@ -24,6 +25,7 @@ margin:0;
      min-width: 80vh;
     max-height: 70vh;
     border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(232,141,164,0.9416141456582633);
     overflow: hidden;
 }
 .photo img {
@@ -35,7 +37,6 @@ margin:0;
     justify-content: center;
     width: 140%;
     height: 100%;
-    background: red;
     margin-bottom: 9%;
 
 }
@@ -45,17 +46,29 @@ margin:0;
     font-size: 2.5vh;
 }
 .name {
-
+    border: solid rgba(54,129,255,0.6362920168067228);
+    color: rgb(255,54,186);
+    border-left: dashed rgba(54,129,255,0.6362920168067228);
+    border-bottom: dashed rgba(54,129,255,0.6362920168067228);
 }
 
 .dataBirth {
-
+    border: solid rgba(255,54,186,0.6362920168067228);
+    border-right: double rgba(255,54,186,0.6362920168067228);
+    border-top: double rgba(255,54,186,0.6362920168067228);
+    color:rgb(158,54,255);
 }
 
 .university {
-
+   box-sizing:border-box;
+    border: 3px solid rgba(54,190,255,0.6362920168067228);
+    color: rgb(255,54,54);
 }
 
 .group {
-
+    border-bottom: dotted rgba(158,54,255,0.6362920168067228);
+    border-left: double rgba(158,54,255,0.6362920168067228);
+    border-top: dashed rgba(158,54,255,0.6362920168067228);
+    border-right: solid rgba(158,54,255,0.6362920168067228);
+    color: rgb(54,95,255);
 }
