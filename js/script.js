@@ -7,3 +7,6 @@ function moveOnPhoto(event) {
 function moveOutPhoto(event) {
     console.log("Out the block", event);
 }
+function changeInput() {
+    alert("change input");
+}
